@@ -1,0 +1,13 @@
+__pycache__
+temp
+instance
+# out
+build
+.ipynb_checkpoints
+.spec
+.pyc
+tools/ncc/*/
+datasets_img/
+.DS_Store
+out/datasets
+out/sample_images
