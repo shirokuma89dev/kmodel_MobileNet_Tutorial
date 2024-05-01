@@ -10,9 +10,9 @@ services:
     build:
       context: .
       dockerfile: Dockerfile_native
-  python3_linux_amd64:
+  linux_amd64:
     restart: always
-    container_name: 'python3_linux_amd64'
+    container_name: 'linux_amd64'
     working_dir: '/root/'
     tty: true
     volumes:
