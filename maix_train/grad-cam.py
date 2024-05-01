@@ -75,7 +75,7 @@ for image_file in image_files:
     cam = np.squeeze(cam)  # 余分な次元を削除
 
     img = cv2.imread(image_path)
-    INTENSITY = 0.6
+    INTENSITY = 0.4
 
     cam = cv2.resize(cam, (img.shape[1], img.shape[0]))
     cam = cv2.applyColorMap(np.uint8(255*cam), cv2.COLORMAP_JET)
